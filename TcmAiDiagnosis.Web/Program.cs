@@ -8,6 +8,13 @@ using TcmAiDiagnosis.Web.Data;
 using TcmAiDiagnosis.Web.Services;
 using TcmAiDiagnosis.Web.Extensions;
 
+/*
+ * Time:    2026/4/1
+ * Author:  NiKo
+ * 
+ * NiKo在今天正式独自接受这个项目
+ */
+
 namespace TcmAiDiagnosis.Web
 {
     public class Program

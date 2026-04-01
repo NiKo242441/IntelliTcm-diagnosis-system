@@ -253,7 +253,7 @@ TcmAiDiagnosis/
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/your-repo/TcmAiDiagnosis.git
+git clone https://github.com/NiKo242441/tcm-ai-diagnosis-system.git
 cd TcmAiDiagnosis
 ```
 

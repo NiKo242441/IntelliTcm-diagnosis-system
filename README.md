@@ -1,4 +1,5 @@
 # 中医数字化诊疗平台 (TCM AI Diagnosis Platform)
+# 本草智诊-中医证候分析系统（IntelliTCM Diagnosis Engine）
 
 ## 📋 项目简介
 

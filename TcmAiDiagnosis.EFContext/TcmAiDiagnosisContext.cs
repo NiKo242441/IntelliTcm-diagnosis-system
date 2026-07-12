@@ -4,6 +4,9 @@ using TcmAiDiagnosis.Entities;
 
 namespace TcmAiDiagnosis.EFContext
 {
+    /// <summary>
+    /// 数据库上下文
+    /// </summary>
     public class TcmAiDiagnosisContext : IdentityDbContext<User, Role, int>
     {
         /// <summary>

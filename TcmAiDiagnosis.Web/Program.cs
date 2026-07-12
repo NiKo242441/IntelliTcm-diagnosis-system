@@ -3,10 +3,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using TcmAiDiagnosis.Domain;
+using TcmAiDiagnosis.Domain.Interfaces;
 using TcmAiDiagnosis.Domain.Services;
 using TcmAiDiagnosis.Domain.Validators;
 using TcmAiDiagnosis.EFContext;
 using TcmAiDiagnosis.Entities;
+using TcmAiDiagnosis.Infrastructure;
+using TcmAiDiagnosis.Infrastructure.Persistence.Repositories;
 using TcmAiDiagnosis.Web.Data;
 using TcmAiDiagnosis.Web.AutoMapper;
 using TcmAiDiagnosis.Web.Services;
@@ -110,9 +113,6 @@ namespace TcmAiDiagnosis.Web
             builder.Services.AddScoped<TreatmentDomain>();
             builder.Services.AddScoped<TreatmentDataValidator>();
             builder.Services.AddScoped<RetryPolicyService>();
-            builder.Services.AddDbContext<TcmAiDiagnosisContext>();
-            // 注册数据库上下文
-            builder.Services.AddDbContext<TcmAiDiagnosisContext>();
 
             // 注册领域服务
             builder.Services.AddScoped<InventoryAlertRuleDomain>();
